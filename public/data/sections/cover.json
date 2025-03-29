@@ -1,0 +1,151 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Bimsky!**"
+        },
+
+        "ind": {
+            "title": "Selamat datang!",
+            "title_menu": "Tentang saya",
+            "title_long_prefix": "Helo..",
+            "title_long": "Saya **Bimsky!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "ind": {}
+            },
+
+            "items": [
+                {
+                    "value": "Dev6363999@gmail.com",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@Dev1998id",
+                    "links": [
+                        {"href": "https://github.com/Dev1998id"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "ind": {"title": "Sedikit** tentang saya**..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>Hi, I am Bimsky <b>I am a 15-year-old teenager from Jakarta,</b> I am interested in coding and fitness, especially gym.</p><p>Let's connect and see the projects I have created!<b></b>"},
+                        "ind": {"text": "<p>Hai, saya Bimskuy,<b> Saya remaja berusia 15 tahun dari Jakarta.</p><p>aya tertarik dengan coding dan kebugaran, terutama gym. </p><p><b>Mari kita terhubung dan melihat proyek-proyek yang telah saya buat!</p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "ind": { "title": "Kepentingan**pribadi**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-dumbbell",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "GYM",
+                            "info": "to improve fitness, discipline, focus, posture and reduce stress."
+                        },
+                        "ind": {
+                            "title": "Olahraga",
+                            "info": "ntuk meningkatkan kebugaran, disiplin, fokus, postur, dan mengurangi stres."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-person student",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Student",
+                            "info": "I happen to be still a student"
+                        },
+                        "ind": {
+                            "title": "Pelajar",
+                            "info": "Kebetulan saya masih di pelajar"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pencil-alt",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "UI design",
+                            "info": "Learning how users interact."
+                        },
+                        "ind": {
+                            "title": "UI desain",
+                            "info": "Mempelajara interaksi pengguna."
+                        }
+                    }
+                }
+
+                
+            ]
+        }
+    ]
+}
